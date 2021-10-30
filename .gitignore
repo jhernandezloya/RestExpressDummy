@@ -16,3 +16,4 @@ package-lock.json
 # Editor directories and files
 .vscode
 .DS_Store
+.logs/*
