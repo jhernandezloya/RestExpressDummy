@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "module": "commonjs",
+      "sourceMap": true,
+      "outDir": "./dist",
+      "rootDir": "./src",
+      /* Strict Type-Checking Options */
+      "strict": true,
+      "noImplicitAny": false,
+      /* Module Resolution Options */
+      "moduleResolution": "node",
+      "baseUrl": "./src",
+      "esModuleInterop": true,
+      /* Advanced Options */
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+  },
+  "files": [
+    "./node_modules/@types/mocha/index.d.ts",
+    "./node_modules/@types/node/index.d.ts",
+    "./node_modules/@types/mongodb/index.d.ts",
+    "./node_modules/@types/express/index.d.ts",
+    "./node_modules/@types/dotenv/index.d.ts",
+    "./node_modules/@types/express-session/index.d.ts"
+  ],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
